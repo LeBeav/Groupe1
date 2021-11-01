@@ -201,7 +201,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 20173283}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 7.842536, y: 14.218492, z: 54.85825}
+  m_LocalPosition: {x: 7.842536, y: 14.02, z: 54.85825}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1019452220}
@@ -445,7 +445,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 73366909}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 13.912536, y: 14.218492, z: 54.85825}
+  m_LocalPosition: {x: 13.912536, y: 14.020001, z: 54.85825}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1019452220}
@@ -605,7 +605,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 191257534}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 4.95485, y: 16.363667, z: 54.85825}
+  m_LocalPosition: {x: 4.95485, y: 16.165176, z: 54.85825}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 2094176507}
@@ -687,7 +687,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 219661623}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 26.952534, y: 14.221345, z: 54.85825}
+  m_LocalPosition: {x: 26.952534, y: 14.022855, z: 54.85825}
   m_LocalScale: {x: -1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 929736689}
@@ -800,7 +800,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 434032669}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 16.112534, y: 14.808492, z: 54.85825}
+  m_LocalPosition: {x: 16.112534, y: 14.610002, z: 54.85825}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 2094176507}
@@ -816,8 +816,8 @@ GameObject:
   m_Component:
   - component: {fileID: 434701961}
   - component: {fileID: 434701960}
-  - component: {fileID: 434701963}
   - component: {fileID: 434701962}
+  - component: {fileID: 434701963}
   m_Layer: 0
   m_Name: TX Village Props Spike Ball (1)
   m_TagString: Untagged
@@ -911,8 +911,8 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 7
---- !u!70 &434701963
-CapsuleCollider2D:
+--- !u!58 &434701963
+CircleCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -924,9 +924,9 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_Size: {x: 0.8437501, y: 0.8437501}
-  m_Direction: 0
+  m_Offset: {x: 0, y: -0.0047221184}
+  serializedVersion: 2
+  m_Radius: 0.3132701
 --- !u!1 &619125714
 GameObject:
   m_ObjectHideFlags: 0
@@ -1068,8 +1068,8 @@ GameObject:
   m_Component:
   - component: {fileID: 643081162}
   - component: {fileID: 643081161}
-  - component: {fileID: 643081164}
   - component: {fileID: 643081163}
+  - component: {fileID: 643081164}
   m_Layer: 0
   m_Name: TX Village Props Spike Ball (4)
   m_TagString: Untagged
@@ -1136,7 +1136,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 643081160}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.3235298, y: -0.10294072, z: 0}
+  m_LocalPosition: {x: -0.44823393, y: -0.10294072, z: 0}
   m_LocalScale: {x: 1.4705882, y: 1.4705882, z: 1.4705882}
   m_Children: []
   m_Father: {fileID: 280292629}
@@ -1163,8 +1163,8 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 7
---- !u!70 &643081164
-CapsuleCollider2D:
+--- !u!58 &643081164
+CircleCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -1176,9 +1176,9 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0.0000019073486}
-  m_Size: {x: 0.8437501, y: 0.8437501}
-  m_Direction: 0
+  m_Offset: {x: 0, y: -0.0047221184}
+  serializedVersion: 2
+  m_Radius: 0.3132701
 --- !u!1 &704946344
 GameObject:
   m_ObjectHideFlags: 0
@@ -1255,7 +1255,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 704946344}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 5.352536, y: 14.808492, z: 54.85825}
+  m_LocalPosition: {x: 5.352536, y: 14.610002, z: 54.85825}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 2094176507}
@@ -1339,7 +1339,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 713921879}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 3.2725353, y: 14.218492, z: 54.85825}
+  m_LocalPosition: {x: 3.2725353, y: 14.020001, z: 54.85825}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1019452220}
@@ -1477,8 +1477,8 @@ GameObject:
   m_Component:
   - component: {fileID: 843394284}
   - component: {fileID: 843394283}
-  - component: {fileID: 843394286}
   - component: {fileID: 843394285}
+  - component: {fileID: 843394286}
   m_Layer: 0
   m_Name: TX Village Props Spike Ball (2)
   m_TagString: Untagged
@@ -1545,7 +1545,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 843394282}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.27941114, y: -0.10294072, z: 0}
+  m_LocalPosition: {x: -0.4923526, y: -0.10294072, z: 0}
   m_LocalScale: {x: 1.4705882, y: 1.4705882, z: 1.4705882}
   m_Children: []
   m_Father: {fileID: 793350637}
@@ -1572,8 +1572,8 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 7
---- !u!70 &843394286
-CapsuleCollider2D:
+--- !u!58 &843394286
+CircleCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -1585,9 +1585,9 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_Size: {x: 0.8437501, y: 0.8437501}
-  m_Direction: 0
+  m_Offset: {x: 0, y: -0.0047221184}
+  serializedVersion: 2
+  m_Radius: 0.3132701
 --- !u!1 &890486167
 GameObject:
   m_ObjectHideFlags: 0
@@ -1666,7 +1666,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 890486167}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 11.002536, y: 14.218492, z: 54.85825}
+  m_LocalPosition: {x: 11.002536, y: 14.020001, z: 54.85825}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1019452220}
@@ -22097,7 +22097,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1428397758}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 22.522533, y: 14.218492, z: 54.85825}
+  m_LocalPosition: {x: 22.522533, y: 14.020001, z: 54.85825}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1019452220}
@@ -22228,7 +22228,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1458709772}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 18.632534, y: 14.218492, z: 54.85825}
+  m_LocalPosition: {x: 18.632534, y: 14.020001, z: 54.85825}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1019452220}
@@ -22291,6 +22291,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1469497948}
   - component: {fileID: 1469497947}
+  - component: {fileID: 1469497950}
+  - component: {fileID: 1469497949}
   m_Layer: 0
   m_Name: TX Village Props Spike Ball
   m_TagString: Untagged
@@ -22357,12 +22359,49 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1469497946}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.4117643, y: -0.69117683, z: 0}
+  m_LocalPosition: {x: -0.36, y: -0.69117683, z: 0}
   m_LocalScale: {x: 1.4705882, y: 1.4705882, z: 1.4705882}
   m_Children: []
   m_Father: {fileID: 126216460}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!50 &1469497949
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1469497946}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
+--- !u!58 &1469497950
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1469497946}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: -0.0057468414}
+  serializedVersion: 2
+  m_Radius: 0.31269455
 --- !u!1 &1597575887
 GameObject:
   m_ObjectHideFlags: 0
@@ -22455,8 +22494,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1707387693}
   - component: {fileID: 1707387692}
-  - component: {fileID: 1707387695}
   - component: {fileID: 1707387694}
+  - component: {fileID: 1707387695}
   m_Layer: 0
   m_Name: TX Village Props Spike Ball (5)
   m_TagString: Untagged
@@ -22550,8 +22589,8 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 7
---- !u!70 &1707387695
-CapsuleCollider2D:
+--- !u!58 &1707387695
+CircleCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -22563,9 +22602,9 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0.0000019073486}
-  m_Size: {x: 0.8437501, y: 0.8437501}
-  m_Direction: 0
+  m_Offset: {x: 0, y: -0.0047221184}
+  serializedVersion: 2
+  m_Radius: 0.3132701
 --- !u!1 &1789938412
 GameObject:
   m_ObjectHideFlags: 0
@@ -22697,8 +22736,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1817076499}
   - component: {fileID: 1817076498}
-  - component: {fileID: 1817076501}
   - component: {fileID: 1817076500}
+  - component: {fileID: 1817076501}
   m_Layer: 0
   m_Name: TX Village Props Spike Ball (3)
   m_TagString: Untagged
@@ -22792,8 +22831,8 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 7
---- !u!70 &1817076501
-CapsuleCollider2D:
+--- !u!58 &1817076501
+CircleCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -22805,9 +22844,9 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_Size: {x: 0.8437501, y: 0.8437501}
-  m_Direction: 0
+  m_Offset: {x: 0, y: -0.0047221184}
+  serializedVersion: 2
+  m_Radius: 0.3132701
 --- !u!1 &1918289503
 GameObject:
   m_ObjectHideFlags: 0
